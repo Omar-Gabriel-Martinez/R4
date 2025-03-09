@@ -1,4 +1,4 @@
 package com.martinez_orozco.r2_v2
 
-class Item {
-}
+
+data class Item(val nombre: String, val animacion: Int)

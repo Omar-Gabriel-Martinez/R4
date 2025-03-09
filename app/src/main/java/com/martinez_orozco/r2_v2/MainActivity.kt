@@ -13,8 +13,12 @@ class MainActivity : AppCompatActivity() {
 
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
-        // Lista de datos
-        val listaDeDatos = listOf("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio")
+        // Lista con diferentes textos y animaciones
+        val listaDeDatos = listOf(
+            Item("Elemento 1", R.raw.jan),  // Usa animaciones diferentes
+            Item("Elemento 2", R.raw.feb),
+            Item("Elemento 3", R.raw.march),
+        )
 
         // Configurar RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
