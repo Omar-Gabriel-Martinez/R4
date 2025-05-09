@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="rojo_git">#f44c27</color>
+    <color name="azul_moodle">#04548f</color>
+    <color name="verde_cuvalles">#a8ce45</color>
+
+    <style name ="text_for_titles" parent="Widget.Design.TabLayout">
+        <item name="android:textStyle">bold</item>>
+
+    </style>
 </resources>

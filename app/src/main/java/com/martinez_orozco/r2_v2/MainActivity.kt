@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
 
         // Lista con diferentes textos y animaciones
         val listaDeDatos = listOf(
-            Item("Elemento 1", R.raw.jan),  // Usa animaciones diferentes
-            Item("Elemento 2", R.raw.feb),
-            Item("Elemento 3", R.raw.march),
+            Item("January", R.raw.jan),  // Usa animaciones diferentes
+            Item("February", R.raw.feb),
+            Item("March", R.raw.march),
         )
 
         // Configurar RecyclerView

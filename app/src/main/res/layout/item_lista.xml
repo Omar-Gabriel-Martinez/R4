@@ -29,6 +29,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:textSize="18sp"
-            android:textColor="#000000" />
+            android:textColor="@color/azul_moodle" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
